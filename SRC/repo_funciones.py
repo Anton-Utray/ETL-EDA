@@ -71,3 +71,28 @@ def age_groups(age):
         return 'No information'
 
 #data['age'] = data['age'].apply(age_of_victims)
+
+
+def map_to_alcaldia_id(df, col_name):
+    alcaldia_dict = {
+        'Azcapotzalco': '002',
+        'Coyoacán': '003',
+        'Cuajimalpa de Morelos': '004',
+        'Gustavo A. Madero': '005',
+        'Iztacalco': '006',
+        'Iztapalapa': '007',
+        'La Magdalena Contreras': '008',
+        'Milpa Alta': '009',
+        'Álvaro Obregón': '010',
+        'Tláhuac': '011',
+        'Tlalpan': '012',
+        'Xochimilco': '013',
+        'Benito Juárez': '014',
+        'Cuauhtémoc': '015',
+        'Miguel Hidalgo': '016',
+        'Venustiano Carranza': '017'
+    }
+    
+    df['alcaldia_id'] = df[col_name].map(alcaldia_dict)
+    
+    return df.head()
