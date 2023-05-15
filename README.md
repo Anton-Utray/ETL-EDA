@@ -79,7 +79,7 @@ Buscaremos despejar algunas de las siguientes icongnitas:
 
 ### Conclusiones<a name="conclusiones"/>
 
-### Próximos pasos<a name="próximos"/>
+### 🏃🏽‍♀️ Próximos pasos<a name="próximos"/>
 
 Para poder concluir con nuestro mapeo, de cara al proyecto final del bootcamp tenemos los siguientes objetivos: 
 
