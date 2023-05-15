@@ -16,7 +16,6 @@ Cuarto proyecto realizado dentro del Bootcamp de Data Analytics de IronHack.
 
 Con este proyecto se propone la práctica de análisis tipo EDA. Para ello hemos tomado los archivos del proyecto ETL de la semana anterior [^1]
 
- 
 <details>
 <summary>Pequeño recap ⏪ 👩‍🏫</summary>
 <br>
@@ -34,7 +33,6 @@ En este proyecto , habíamos extraido, transformado y subido a SQL 3 archivos:
 <summary>Enriquecimiento 🧬</summary>
 <br>
  
-
 Para enriquecer los datos de cara a la exploración de datos hemos realidazo lo siguiente:
 
 - Añadir al archivo de proyectos de captura de agua de lluvia los datos para los años 2019, 2020 y 2021.
@@ -71,9 +69,13 @@ Buscaremos despejar algunas de las siguientes icongnitas:
 ![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20pob%20vulnerable.JPG)
 </details>
 
-#### Mapa proyectos de captura de agua (19-22)
+<details>
+<summary>Mapa proyectos de captura de agua (19-22)</summary>
+<br>
+
 
 ![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20proyectos.JPG)
+</details>
 
 ### Conclusiones<a name="conclusiones"/>
 
