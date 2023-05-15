@@ -37,12 +37,30 @@ Para enriquecer los datos de cara a la exploración de datos hemos realidazo lo 
 
 ### 🎯 Objetivo<a name="objetivo"/>
 
+El objetivo de esta EDA es ir pintando una mejor imagen de la situación hidrica de las distintas alcaldías de la CDMX. 
+
+Buscaremos despejar algunas de las siguientes icongnitas: 
+
+- ¿Como se divide el acceso a agua por alcaldías?
+- ¿Como se compara al indice de desarollo de cada sitio?
+- En que partes de la ciudad ya se estan llevando a cabo proyectos de este tipo? 
 
 ### Análisis<a name="analisis"/>
 
-srthrthr
+### Primer snapshot CDMX 
+
+![DASH]('.\IMAGES\DASH acceso vs consumo.JPG)
 
 
+### Conclusiones<a name="conclusiones"/>
+
+### Próximos pasos<a name="próximos"/>
+
+Para poder concluir con nuestro mapeo, de cara al proyecto final del bootcamp tenemos los siguientes objetivos: 
+
+- Bajar de esacala alcaldía a escala colonia y/o municipio. (Varios de nuestros archivos ya traen esta información pero incompleta, por restricciones de tiempo no hemos podido dedicar tiempo a esta parte)
+- Continuar construyendo la base de datos en SQL.
+- Agregar mapa de escuelas publicas. 
 
 Footnotes:
 [^1]: Proyecto ETL https://github.com/Anton-Utray/ETL
