@@ -16,7 +16,10 @@ Cuarto proyecto realizado dentro del Bootcamp de Data Analytics de IronHack.
 
 Con este proyecto se propone la práctica de análisis tipo EDA. Para ello hemos tomado los archivos del proyecto ETL de la semana anterior [^1]
 
-#### Pequeño recap ⏪ 👩‍🏫 
+ 
+<details>
+<summary>Pequeño recap ⏪ 👩‍🏫</summary>
+<br>
 
 En este proyecto , habíamos extraido, transformado y subido a SQL 3 archivos:
 
@@ -25,15 +28,19 @@ En este proyecto , habíamos extraido, transformado y subido a SQL 3 archivos:
 - Recopilación de proyectos de captura de agua en la CDMX, separado por alcaldias para el año 2022. 
 
 - Indices de desarrollo por acladía.
+</details>
 
-
-#### Enriquecimiento 🧬 
+<details>
+<summary>Enriquecimiento 🧬</summary>
+<br>
+ 
 
 Para enriquecer los datos de cara a la exploración de datos hemos realidazo lo siguiente:
 
 - Añadir al archivo de proyectos de captura de agua de lluvia los datos para los años 2019, 2020 y 2021.
 
 - Sacar el consumo de agua promedio por alcaldía. Extraído del portal del datos del Gobierno de la Ciudad de Mexico. 
+</details>
 
 ### 🎯 Objetivo<a name="objetivo"/>
 
@@ -47,13 +54,22 @@ Buscaremos despejar algunas de las siguientes icongnitas:
 
 ### Análisis<a name="analisis"/>
 
-#### Primer snapshot CDMX 
+<details>
+<summary>Primer snapshot CDMX</summary>
+<br>
+
+
 
 ![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/DASH%20acceso%20vs%20consumo.JPG)
+</details>
 
-#### Población vulnerable
+<details>
+<summary>Población vulnerable</summary>
+<br>
+
 
 ![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20pob%20vulnerable.JPG)
+</details>
 
 #### Mapa proyectos de captura de agua (19-22)
 
