@@ -47,10 +47,17 @@ Buscaremos despejar algunas de las siguientes icongnitas:
 
 ### Análisis<a name="analisis"/>
 
-### Primer snapshot CDMX 
+#### Primer snapshot CDMX 
 
-![DASH]('.\IMAGES\DASH acceso vs consumo.JPG)
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/DASH%20acceso%20vs%20consumo.JPG)
 
+#### Población vulnerable
+
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20pob%20vulnerable.JPG)
+
+#### Mapa proyectos de captura de agua (19-22)
+
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20proyectos.JPG)
 
 ### Conclusiones<a name="conclusiones"/>
 
