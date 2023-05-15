@@ -6,20 +6,20 @@ Azcapotzalco,no,De un pozo particular,65
 Azcapotzalco,no,Llave o pozo comunitario,860
 Azcapotzalco,no,No especificado,525
 Azcapotzalco,si,Del servicio público de agua,426697
-Benito Juárez,no,Camion cisterna,360
-Benito Juárez,no,De la lluvia,8
-Benito Juárez,no,De otra vivienda,67
-Benito Juárez,no,De un pozo particular,70
-Benito Juárez,no,Llave o pozo comunitario,141
-Benito Juárez,no,No especificado,241
-Benito Juárez,si,Del servicio público de agua,430889
-Coyoacán,no,Camion cisterna,674
-Coyoacán,no,De la lluvia,16
-Coyoacán,no,De otra vivienda,404
-Coyoacán,no,De un pozo particular,100
-Coyoacán,no,Llave o pozo comunitario,901
-Coyoacán,no,No especificado,431
-Coyoacán,si,Del servicio público de agua,608854
+Benito Juarez,no,Camion cisterna,360
+Benito Juarez,no,De la lluvia,8
+Benito Juarez,no,De otra vivienda,67
+Benito Juarez,no,De un pozo particular,70
+Benito Juarez,no,Llave o pozo comunitario,141
+Benito Juarez,no,No especificado,241
+Benito Juarez,si,Del servicio público de agua,430889
+Coyoacan,no,Camion cisterna,674
+Coyoacan,no,De la lluvia,16
+Coyoacan,no,De otra vivienda,404
+Coyoacan,no,De un pozo particular,100
+Coyoacan,no,Llave o pozo comunitario,901
+Coyoacan,no,No especificado,431
+Coyoacan,si,Del servicio público de agua,608854
 Cuajimalpa de Morelos,no,"Acarreada de un río, arroyo o lago",17
 Cuajimalpa de Morelos,no,Camion cisterna,2620
 Cuajimalpa de Morelos,no,De la lluvia,59
@@ -28,14 +28,14 @@ Cuajimalpa de Morelos,no,De un pozo particular,261
 Cuajimalpa de Morelos,no,Llave o pozo comunitario,12431
 Cuajimalpa de Morelos,no,No especificado,1163
 Cuajimalpa de Morelos,si,Del servicio público de agua,199931
-Cuauhtémoc,no,"Acarreada de un río, arroyo o lago",10
-Cuauhtémoc,no,Camion cisterna,535
-Cuauhtémoc,no,De la lluvia,20
-Cuauhtémoc,no,De otra vivienda,346
-Cuauhtémoc,no,De un pozo particular,48
-Cuauhtémoc,no,Llave o pozo comunitario,392
-Cuauhtémoc,no,No especificado,279
-Cuauhtémoc,si,Del servicio público de agua,537736
+Cuauhtemoc,no,"Acarreada de un río, arroyo o lago",10
+Cuauhtemoc,no,Camion cisterna,535
+Cuauhtemoc,no,De la lluvia,20
+Cuauhtemoc,no,De otra vivienda,346
+Cuauhtemoc,no,De un pozo particular,48
+Cuauhtemoc,no,Llave o pozo comunitario,392
+Cuauhtemoc,no,No especificado,279
+Cuauhtemoc,si,Del servicio público de agua,537736
 Gustavo A. Madero,no,Camion cisterna,3073
 Gustavo A. Madero,no,De la lluvia,25
 Gustavo A. Madero,no,De otra vivienda,912
@@ -89,14 +89,14 @@ Tlalpan,no,De un pozo particular,1232
 Tlalpan,no,Llave o pozo comunitario,11129
 Tlalpan,no,No especificado,1133
 Tlalpan,si,Del servicio público de agua,562109
-Tláhuac,no,"Acarreada de un río, arroyo o lago",12
-Tláhuac,no,Camion cisterna,18518
-Tláhuac,no,De la lluvia,65
-Tláhuac,no,De otra vivienda,1506
-Tláhuac,no,De un pozo particular,101
-Tláhuac,no,Llave o pozo comunitario,4832
-Tláhuac,no,No especificado,505
-Tláhuac,si,Del servicio público de agua,365682
+Tlahuac,no,"Acarreada de un río, arroyo o lago",12
+Tlahuac,no,Camion cisterna,18518
+Tlahuac,no,De la lluvia,65
+Tlahuac,no,De otra vivienda,1506
+Tlahuac,no,De un pozo particular,101
+Tlahuac,no,Llave o pozo comunitario,4832
+Tlahuac,no,No especificado,505
+Tlahuac,si,Del servicio público de agua,365682
 Venustiano Carranza,no,Camion cisterna,205
 Venustiano Carranza,no,De la lluvia,14
 Venustiano Carranza,no,De otra vivienda,341
@@ -112,11 +112,11 @@ Xochimilco,no,De un pozo particular,752
 Xochimilco,no,Llave o pozo comunitario,24513
 Xochimilco,no,No especificado,2194
 Xochimilco,si,Del servicio público de agua,365120
-Álvaro Obregón,no,"Acarreada de un río, arroyo o lago",3
-Álvaro Obregón,no,Camion cisterna,2766
-Álvaro Obregón,no,De la lluvia,47
-Álvaro Obregón,no,De otra vivienda,1097
-Álvaro Obregón,no,De un pozo particular,170
-Álvaro Obregón,no,Llave o pozo comunitario,5451
-Álvaro Obregón,no,No especificado,2218
-Álvaro Obregón,si,Del servicio público de agua,744504
+Alvaro Obregon,no,"Acarreada de un río, arroyo o lago",3
+Alvaro Obregon,no,Camion cisterna,2766
+Alvaro Obregon,no,De la lluvia,47
+Alvaro Obregon,no,De otra vivienda,1097
+Alvaro Obregon,no,De un pozo particular,170
+Alvaro Obregon,no,Llave o pozo comunitario,5451
+Alvaro Obregon,no,No especificado,2218
+Alvaro Obregon,si,Del servicio público de agua,744504
