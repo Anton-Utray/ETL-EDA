@@ -139,4 +139,4 @@ Para poder concluir con nuestro mapeo, de cara al proyecto final del bootcamp te
 
 Footnotes:
 [^1]: Proyecto ETL https://github.com/Anton-Utray/ETL
-[^2]: Proyecto Piloto captura de lluvia en escuelas de la Coalición: https://www.coalicion-tricolor.com/_files/ugd/441226_089487397102429a8db70da4a1a9c968.pdf ↩
+[^2]: Proyecto Piloto captura de lluvia en escuelas de la Coalición: https://www.coalicion-tricolor.com/_files/ugd/441226_089487397102429a8db70da4a1a9c968.pdf 
