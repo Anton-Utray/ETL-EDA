@@ -1,4 +1,6 @@
-# ETL-EDA
+# AGUA y LLuvia en la CDMX
+
+![Portada]
 
 ## Análisis exploratorio de datos (EDA)
 
@@ -8,7 +10,7 @@
 2. [🎯 Objetivo](#objetivo)
 3. [📊 Análisis](#analisis)
 4. [💧 Conclusiones](#conclusion)
-5. [Próximos pasos](#próximos)
+5. [🏃🏽‍♀️ Próximos pasos](#próximos)
 
 ### ✍️ Descripción<a name="descripcion"/>
 
@@ -42,9 +44,9 @@ Para enriquecer los datos de cara a la exploración de datos hemos realidazo lo 
 
 ### 🎯 Objetivo<a name="objetivo"/>
 
-El objetivo de esta EDA es ir pintando una mejor imagen de la situación hidrica de las distintas alcaldías de la CDMX. 
+El objetivo de esta EDA es ir pintando una mejor imagen de la situación hidrica de las distintas alcaldías de la CDMX. Esta informarción informará la estrategia de la Coalición Tricolor con su proyecto piloto de instalación de sistemas de captura de agua en escuelas en la CDMX en situación de vulnerabilidad hidrica. 
 
-Buscaremos despejar algunas de las siguientes icongnitas: 
+Por lo tanto, con este EDA buscaremos despejar las siguientes icongnitas: 
 
 - ¿Como se divide el acceso a agua por alcaldías?
 - ¿Como se compara al indice de desarollo de cada sitio?
@@ -56,18 +58,20 @@ Buscaremos despejar algunas de las siguientes icongnitas:
 <summary>Primer snapshot CDMX</summary>
 <br>
 
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/DASH%20acceso%20vs%20consumo.JPG)
+
 A nivel total CDMX, alrededor del 96% de la población goza de acceso a agua corriente. Este numero varia entre alcaldías como Miguel Hidalgo donde el 99% de su población estan conectadas al servicio publico y otras como Milpa Alta donde el porcentaje se situa en 80%.
 
 Sin embargo, como podemos apreciar en la tabla de consumo promedio por alcaldía, dicha cobertura no se refleja en una tasa de consumo equitativa. En gran parte esto se debe a que no todas las alcaldías gozan de un suministro continuo o de calidad apta para su consumo.
 
 Finalmente, podemos observar una correlación directa entre indice de desarrollo de las alcaldías con respecto a su consumo promedio. 
-
-![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/DASH%20acceso%20vs%20consumo.JPG)
 </details>
 
 <details>
 <summary>Población vulnerable</summary>
 <br>
+
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20pob%20vulnerable.JPG)
 
 En este Dashboard, agrupamos los totales de poblaciones en vulnerabilidad hidrica por alcaldía. 
 
@@ -79,14 +83,14 @@ Estas 'top 5' alcaldías mas vulnerables cuentan todas con un indice de desaroll
 
 Finalmente, haciendo *zoom* sobre las 5 alcaldías con mas población vulnerable, podemos apreciar que el camion cisterna predomina como fuente alternativa de abastecimiento.
 
-En el caso de Xochimilco vemos que tienen proporción alta de personas que se abastecen gracias a llaves y pozos comunitarios. Al estar situada en una zona de humedal, nos hace sentido pero preocupa la contaminación notoria de los cuerpos de agua en esta alcaldía.  
-
-![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20pob%20vulnerable.JPG)
+En el caso de Xochimilco vemos que tienen proporción alta de personas que se abastecen gracias a llaves y pozos comunitarios. Al estar situada en una zona de humedales, nos hace sentido pero preocupa la contaminación notoria de los cuerpos de agua en esta alcaldía.  
 </details>
 
 <details>
 <summary>Mapa proyectos de captura de agua (19-22)</summary>
 <br>
+
+![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20proyectos.JPG)
 
 A primera vista podemos observar la aglomeración de proyectos al sur de la ciudad, en los limites de la zona urbana. Por estas zonas predomina el ambiente rural entre montañas y cerros, distinguibles en el mapa gracias a sus colores verdes y beige. 
 
@@ -96,39 +100,37 @@ Aunuado a la orografía, podemos observar correlación entre el nivel de indice 
 
 De igual manera podemos hacer paralelo al Dashboard anterior: las top 5 alcaldías a nivel de proyectos cuinciden con las 5 alcaldías con mayor población en situación de vulnerabilidad hidrica. 
 
-Sin embargo cabe destacar que Milpa Alta acapara una parte importante de los proyectos pero no era la alcaldía con mas población vulnerable. 
+Sin embargo cabe destacar que Milpa Alta acapara una parte importante de los proyectos pero no es la alcaldía con mas población vulnerable. 
 
-Tanto Tlalpan y Xochimilco podrían recibir mas apoyo de este tipo considerando la proporción de sus poblaciones vulnerables. 
+Tanto Tlalpan como Xochimilco podrían recibir mas apoyo de este tipo considerando la proporción de sus poblaciones vulnerables. 
 
  Entre 2021 y 2022 observamos un crecimiento exponencial de proyectos en la alcaldía de Milpa Alta y Tlalpan en menor medida. 
 
- Xochimilco presencia un decrecimiento progresivo de numero de proyectos desde 2019 hasta 2022. 
+ Sin embargo, Xochimilco presencia un decrecimiento progresivo de numero de proyectos desde 2019 hasta 2022. 
 
- Tambien cabe mencionar no aparece en esta tabla Cuajimalpa de Morelos, que es la sexta alcaldía mas vulnerable en agregado poblacional. 
+ Tambien cabe mencionar no aparece en esta tabla Cuajimalpa de Morelos, que es la sexta alcaldía mas vulnerable en agregado poblacional vulnerable.
 
-![DASH](https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/Dash%20proyectos.JPG)
+Finalmente, vemos que para la colonia La Magdalena Contreras se realizaron proyectos puntuales en el 2021 pero no se retomaron nuevas intalaciones en 2022. 
 </details>
 
 ### 💧 Conclusiones<a name="conclusiones"/>
 
+Este analisis exploratorio nos regala muchos *insights* sobre la geolocalicazión de la vulnerabilidad hidrica dentro de la CDMX, así como donde se estan centrando los esfuerzos para remediarlo, gracias a proyectos de captura de agua de lluvia. 
 
-Este analisis exploratorio nos regala muchos *insights* sobre la geolocalicazión de la vulnerabilidad hidrica dentro de la CDMX, así como donde se estan centrando los esfuerzos para remediarlo gracias a proyectos de captura de agua de lluvia. 
+Observamos una correlación positiva entre las alcaldías mas vulnerables y los proyectos de instalación realizados a la fecha.
 
-Observamos una correlación positiva entre las alcaldías mas vulnerables y los proyectos de instalación. 
+Determinamos areas de oportunidad en Xochimilco, Cuajimalpa de Morelos y La Magdalena Contreras.
 
-Sin embargo, esa correlación no parece tomar demasiado en cuenta el total de población en vulnerabilidad. Como es el caso para las alcaldías de Xochimilco y Cuajimalpa de Morelos. 
-
-Azcapoztalco y coyoacan un poco raro porque no tienen mucha pobla vulne
-
-Tambien mencionar que las alcaldías son nucleos poblacionales muy grandes y el indice de desarrollo se puede sesgar. por lo tanto sería importante en un analisis futuro de bajar a nivel colonia o pueblo para sacar información mas pertinente y estrechar el numero de opciones. 
+Tambien mencionar que las alcaldías son nucleos poblacionales muy grandes y el indice de desarrollo se puede sesgar. Por lo tanto sería importante en un analisis futuro de bajar a nivel colonia o pueblo para sacar información mas pertinente y estrechar el numero de opciones. 
 
 ### 🏃🏽‍♀️ Próximos pasos<a name="próximos"/>
 
 Para poder concluir con nuestro mapeo, de cara al proyecto final del bootcamp tenemos los siguientes objetivos: 
 
-- Bajar de esacala alcaldía a escala colonia y/o municipio. (Varios de nuestros archivos ya traen esta información pero incompleta, por restricciones de tiempo no hemos podido dedicar tiempo a esta parte)
+- Bajar de esacala alcaldía a escala colonia y/o municipio. (Varios de nuestros archivos ya traen esta información pero incompleta, por restricciones de tiempo no hemos podido dedicar tiempo a limpieza extensiva)
 - Continuar construyendo la base de datos en SQL.
 - Agregar mapa de escuelas publicas. 
+- Añadir parametros adicionales de analisis como reportes de cortes de agua/tandeos, contaminación por zonas, precipitaciones...
 
 Footnotes:
 [^1]: Proyecto ETL https://github.com/Anton-Utray/ETL
