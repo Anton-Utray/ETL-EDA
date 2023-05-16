@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="(https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/tlaloc.jpg)" alt="Tlaloc" width="800">
+  <img src="https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/tlaloc.jpg" alt="Tlaloc" width="800">
 </p>
 
 Tlaloc, dios azteca de la lluvia, agua y fertilidad.
