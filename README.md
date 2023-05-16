@@ -1,12 +1,11 @@
 # AGUA y LLuvia en la CDMX
 
-
-
 <p align="center">
-  <img src="https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/tlaloc.jpg" alt="Tlaloc" width="800">
+  <img src="https://github.com/Anton-Utray/ETL-EDA/blob/main/IMAGES/tlaloc.jpg" alt="Tlaloc" width="500">
 </p>
 
-Tlaloc, dios azteca de la lluvia, agua y fertilidad.
+<p align="center">Tlaloc, dios azteca de la lluvia, agua y fertilidad</p>
+
 
 ## Análisis exploratorio de datos (EDA)
 
