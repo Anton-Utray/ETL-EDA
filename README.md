@@ -24,11 +24,11 @@ Con este proyecto se propone la práctica de análisis tipo EDA. Para ello hemos
 
 En este proyecto , habíamos extraido, transformado y subido a SQL 3 archivos:
 
-- Ultímo censo de viviendas y hogares del INEGI que mapea por alcaldía la distribución de su población con acceso a agua corriente o en su defecto, las fuentes alternativas de abastecimiento. 
+- Ultímo censo de viviendas y hogares del INEGI de 2020 que mapea por alcaldía la distribución de su población con acceso a agua corriente o en su defecto, las fuentes alternativas de abastecimiento. 
 
-- Recopilación de proyectos de captura de agua en la CDMX, separado por alcaldias para el año 2022. 
+- Recopilación de proyectos de captura de agua en la CDMX 2022, separado por alcaldias para el año 2022. 
 
-- Indices de desarrollo por acladía.
+- Indices de desarrollo por acladía 2020.
 </details>
 
 <details>
@@ -44,7 +44,7 @@ Para enriquecer los datos de cara a la exploración de datos hemos realidazo lo 
 
 ### 🎯 Objetivo<a name="objetivo"/>
 
-El objetivo de esta EDA es ir pintando una mejor imagen de la situación hidrica de las distintas alcaldías de la CDMX. Esta informarción informará la estrategia de la Coalición Tricolor con su proyecto piloto de instalación de sistemas de captura de agua en escuelas en la CDMX en situación de vulnerabilidad hidrica. 
+El objetivo de esta EDA es ir pintando una mejor imagen de la situación hidrica de las distintas alcaldías de la CDMX. Esta informarción informará la estrategia de la Coalición Tricolor con su proyecto piloto de instalación de sistemas de captura de agua en escuelas en la CDMX en situación de vulnerabilidad hidrica [^2]. 
 
 Por lo tanto, con este EDA buscaremos despejar las siguientes icongnitas: 
 
@@ -134,3 +134,4 @@ Para poder concluir con nuestro mapeo, de cara al proyecto final del bootcamp te
 
 Footnotes:
 [^1]: Proyecto ETL https://github.com/Anton-Utray/ETL
+[^2]: Proyecto Piloto captura de lluvia en escuelas de la Coalición: https://www.coalicion-tricolor.com/_files/ugd/441226_089487397102429a8db70da4a1a9c968.pdf ↩
