@@ -1,4 +1,7 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
 #checar conteo nulos Columnas, Ascending False
 def nancols(x):
@@ -20,11 +23,26 @@ def unique_cols(x):
     return unique_cols.sort_values(ascending=False)
 
 
-#conteo de valores unicos por columno devuelto como DF para mejor visu
+#conteo de valores unicos por columna devuelto como DF para mejor visu
 def col_unique_counts(df, col):
     counts = df[col].value_counts().reset_index()
     counts.columns = [col, 'Count']
     return counts
+
+#conteo de valores unicos por columna devuelto en barplot
+
+def plot_value_counts(df, column):
+    # Count the unique values in the specified column
+    value_counts = df[column].value_counts()
+
+    # Create a bar plot
+    plt.figure(figsize=(10, 6))
+    value_counts.plot(kind='bar')
+    plt.xlabel(column)
+    plt.ylabel('Count')
+    plt.title(f'Count of Unique Values in {column} Column')
+    plt.xticks(rotation=45)
+    plt.show()
 
 
 #checar dtypes unicos por columna
@@ -96,3 +114,39 @@ def map_to_alcaldia_id(df, col_name):
     df['alcaldia_id'] = df[col_name].map(alcaldia_dict)
     
     return df.head()
+
+#heatmap de correlaciones. Para columnas no numericas. Hay que importar numpy as np, Pylab as plt y seaborn as sns
+
+def plot_correlation_heatmap(df):
+    numeric_columns = df.select_dtypes(include=np.number)
+    
+    plt.figure(figsize=(15, 10))
+    sns.set(style='white')
+    
+    mask = np.triu(np.ones_like(numeric_columns.corr(), dtype=bool))
+    cmap = sns.diverging_palette(0, 10, as_cmap=True)
+    
+    sns.heatmap(numeric_columns.corr(),
+                mask=mask,
+                cmap=cmap,
+                center=0,
+                square=True,
+                annot=True,
+                linewidths=0.5,
+                cbar_kws={'shrink': 0.5})
+    
+    plt.show()
+
+
+#REMPLAZAR NULOS POR LA MODA. 
+
+def replace_null_with_mode(df):
+    # Iterate over each column in the DataFrame
+    for column in df.columns:
+        # Check if the column contains any null values
+        if df[column].isnull().any():
+            # Replace null values with the mode of the column
+            mode_value = df[column].mode()[0]
+            df[column].fillna(mode_value, inplace=True)
+    
+    return df
