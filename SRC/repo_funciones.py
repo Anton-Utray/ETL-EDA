@@ -150,3 +150,25 @@ def replace_null_with_mode(df):
             df[column].fillna(mode_value, inplace=True)
     
     return df
+
+#MATRIZ confusion ML y accuracy score
+
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.linear_model import LogisticRegression
+
+def evaluate_model(X_train, X_test, y_train, y_test):
+    # Create and train the logistic regression model
+    logreg = LogisticRegression()
+    logreg.fit(X_train, y_train)
+
+    # Make predictions on the test set
+    y_pred = logreg.predict(X_test)
+
+    # Calculate and print the confusion matrix
+    cm = confusion_matrix(y_test, y_pred)
+    print("Confusion Matrix:")
+    print(cm)
+
+    # Calculate and print the accuracy score
+    accuracy = accuracy_score(y_test, y_pred)
+    print("Accuracy Score:", accuracy)
